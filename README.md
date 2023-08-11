@@ -116,7 +116,7 @@ When it's done the boxes "Ventoy in Package" and "Ventoy in Device" should match
 
 ### Putting Your ISO on your USB
 
-To put your ISO on to your ventoy USB drive it's quite simple. Open file explorer and go to where you downloaded your NixOS ISO (probably in your downloads). Then, on the left find where your USB drive is. If there are two pertitions or two USB drives showing up, you'll want the larger drive. (there may be two showing up as one is the ventoy partition which is what boots up so you can select what iso you want to use. The other, larger one, is where you will store your ISO's. The best part is you can add as many as you can fit on your USB.) 
+To put your ISO on to your ventoy USB drive it's quite simple. Open file explorer and go to where you downloaded your NixOS ISO (probably in your downloads). Then, on the left find where your USB drive is. If there are two pertitions or two USB drives showing up, you'll want the larger one. (there may be two showing up as one is the ventoy partition which is what boots up so you can select what iso you want to use. The other, larger one, is where you will store your ISO's. The best part is you can add as many as you can fit on your USB.) 
 
 Now that you've located your USB drive, simply drag and drop the ISO from your downloads to your USB. {idk if it asks to move or copy but here's this in case. "if it asks you to move or copy, selecting copy will leave a copy behind in case you want it for later."}
 
