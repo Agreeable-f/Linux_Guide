@@ -9,6 +9,8 @@
     1. [Option 1. Ventoy](#o1ventoy)
         1. [Downloading Ventoy](#dlventoy)
         2. [Setting up Ventoy](#suventoy)
+    1. [Option 2. Balena Etcher](#o2balena)
+        1. [Downloading Balena](#dlbalena)
 
 <div id='shopping_list'/>
 
@@ -97,9 +99,13 @@ Next, run the file named "Ventoy2Disk.exe". This will be in that folder you just
 
 You can either double click it(left click). Or right click it and select run as admin.(NOTE: Running as admin may fix some issues when running ventoy so it is generally suggested to use this method) This should open the ventoy tool.
 
+<div id='o2balena'/>
+
 ## Option 2. Balena Etcher
 
 Balena Etcher etches or burns the image on to that USB. Similar to burning a CD back in the day. This means that you will only be able to boot to that single ISO or image that's burned to that USB drive. Though much more limited this method is alot simpler and will serve it's purpose for this guide.
+
+<div id='dlbalena'/>
 
 ### Downloading Balena Etcher
 
@@ -108,14 +114,12 @@ Doanload link: https://etcher.balena.io/#download-etcher
 {insert download image here. i'll worry about this later since the guide doesn't use this option.}
 
 
-<details>
-<summary>Step 2. </summary>
-<br>
+<div id='step2'/>
 
-</details>
+# Step 2. 
 
-<details>
-<summary>Step 3. </summary>
-<br>
 
-</details>
+
+<div id='step3'/>
+
+# Step 3. 
