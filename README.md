@@ -2,9 +2,13 @@
 
 ### This is an in-depth guide you through your first time using linux from being a complete beginner with computers.
 
-<details>
-<summary>Prep. Shopping List, terms and information</summary>
-<br>
+### Contents
+1. [Prep. Shopping list, terms, and imformation](#shopping_list)
+2. [Step 1. Getting Linux on your USB](#Step1)
+
+<div id='shopping_list'/>
+
+# Prep. Shopping List, terms and information
 
 ### These are the things that you'll need to follow along with this guide. You probably already have these items laying around!
 
@@ -38,11 +42,9 @@ For more info see this wikipedia article https://en.wikipedia.org/wiki/Desktop_e
 - WM: WM is short for Window Manager. A Window Manager is software that, as the name implies, manages your windows (the little boxes of programs that show up on your screen like google). The window manager mainly handles their position and how they move around, though that's a gross oversimplification.
 afor more info see this wikipedia article https://en.wikipedia.org/wiki/Window_manager
 
-</details>
+<div id='Step1'/>
 
-<details>
-<summary>Step 1. Getting Linux on your USB</summary>
-<br>
+# Step 1. Getting Linux on your USB
 
 ## For putting Linux on the USB we have two options. Doing either of which will remove everything on your USB drive so make sure you have everything backed up.
 
@@ -94,7 +96,6 @@ Doanload link: https://etcher.balena.io/#download-etcher
 
 {insert download image here. i'll worry about this later since the guide doesn't use this option.}
 
-</details>
 
 <details>
 <summary>Step 2. </summary>
