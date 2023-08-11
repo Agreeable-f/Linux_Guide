@@ -73,7 +73,7 @@ Download link: https://github.com/ventoy/Ventoy/releases
 
 You'll want the one with windows.zip at the end. As ventoy gets updated the verison number will change. As of making this guide it's 1.0.94.
 
-![Ventoy Download Button2](ventoy_download2.png)
+![Ventoy Download Button](ventoy_download.png)
 
 <div id='suventoy'/>
 
@@ -100,17 +100,17 @@ You can either double click it(left click). Or right click it and select run as 
 
 Now that you have ventoy open we're ready to install it to your USB. To do this, look under device and make sure you have the correct drive selected. This should be your USB that you're installing to. 
 
-{image showing what to look at here}
+![Ventoy Drive Selection](ventoy_drive_Selected.png)
 
 If it's not already shown there click the little down arrow on the right side of the device box and select your USB drive from the drop down. 
 
 Once you have your USB drive selected, click Install and let it do it's thing.
 
-{image showing install button}
+![Ventoy Install Button](ventoy_install_button.png)
 
 When it's done the boxes "Ventoy in Package" and "Ventoy in Device" should match
 
-{image showing matching boxes here}
+![Ventoy Completed Screen](ventoy_completed.png)
 
 <div id='isotoventoy'/>
 
@@ -120,7 +120,7 @@ To put your ISO on to your ventoy USB drive it's quite simple. Open file explore
 
 Now that you've located your USB drive, simply drag and drop the ISO from your downloads to your USB. {idk if it asks to move or copy but here's this in case. "if it asks you to move or copy, selecting copy will leave a copy behind in case you want it for later."}
 
-You now have your ISO on your USB and you're ready for [Step 2.](#step2). No need to un-plug as we'll be using it shortly.
+You now have your ISO on your USB and you're ready for [Step 2.](#step2) No need to un-plug as we'll be using it shortly.
 
 <div id='o2balena'/>
 
@@ -146,13 +146,13 @@ Now plug in your USB drive and you're ready to use etcher.
 
 To open Etcher, simply run the .exe you just downloaded (probably in your downloads). (If you don't see the .exe at the end don't worry. Go to the view tab at the top of file explorer, and click the "Show file extensions" check box. You should now be able to see the .exe) To run the .exe you can either double click it(left click). Or right click it and select run as admin.(NOTE: Running as admin may fix some issues when running ventoy so it is generally suggested to use this method) This should open Etcher.
 
-Now that Etcher is open you should see an big button on the left saying "Select Image". Click that button and select the NixOS ISO that you downloaded in [Prep. Shopping List](#shopping_list). (probably in your downloads)
+Now that Etcher is open you should see an big button on the left saying "Flash from file". Click that button and select the NixOS ISO that you downloaded in [Prep. Shopping List](#shopping_list). (probably in your downloads)
 
-{image of select image button here}
+![Balena Etcher Flash Button](balena_image_button.png)
 
 Once you have your ISO selected make sure you have your USB drive selected. If it's not already selected click the "change" button in the middle and select the correct drive.
 
-{image of the change button here}
+![Balena Etcher Select Target Button](balena_Select_target_button.png)
 
 {image of the drive select menu that opens here}
 
