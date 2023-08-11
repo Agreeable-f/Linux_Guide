@@ -41,17 +41,17 @@ Scroll down until you find this section and click Download. (We'll be using the 
 
 - Distro: Distro, or distribution refers to the distribution of linux as there are many to chose from. Think of it like a supermarket. Target, Walmart, Whole Foods, Aldi, would be the distributions or different choices under the umbrella term of "supermarket".
 
-- Linux: Linux refers to the Kernel that tells everything else what to do.
+- Linux: Linux refers to the Kernel that tells everything else what to do.  
 For more context (and an inside joke with the linux community) see this copypasta https://stallman-copypasta.github.io/
 
-- Kernel: The kernel is a computer program at the core of a computer that communicates between programs and things like your mouse and keyboard and tells everything what to do.
+- Kernel: The kernel is a computer program at the core of a computer that communicates between programs and things like your mouse and keyboard and tells everything what to do.  
 For more info see this wikipedia article https://en.wikipedia.org/wiki/Kernel_%28operating_system%29
 
-- DE: DE is short for Desktop Environment. A Desktop Environment is a bundle of programs that allow you to interact with your computer. Think of your task bar and start menu. That's all part of the DE. In the case of this guide we'll be using one called Plasma by KDE. gnome is also a different DE.
+- DE: DE is short for Desktop Environment. A Desktop Environment is a bundle of programs that allow you to interact with your computer. Think of your task bar and start menu. That's all part of the DE. In the case of this guide we'll be using one called Plasma by KDE. gnome is also a different DE.  
 For more info see this wikipedia article https://en.wikipedia.org/wiki/Desktop_environment
 
-- WM: WM is short for Window Manager. A Window Manager is software that, as the name implies, manages your windows (the little boxes of programs that show up on your screen like google). The window manager mainly handles their position and how they move around, though that's a gross oversimplification.
-afor more info see this wikipedia article https://en.wikipedia.org/wiki/Window_manager
+- WM: WM is short for Window Manager. A Window Manager is software that, as the name implies, manages your windows (the little boxes of programs that show up on your screen like google). The window manager mainly handles their position and how they move around, though that's a gross oversimplification.  
+For more info see this wikipedia article https://en.wikipedia.org/wiki/Window_manager
 
 <div id='step1'/>
 
