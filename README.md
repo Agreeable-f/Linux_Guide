@@ -4,7 +4,7 @@
 
 ### Contents
 1. [Prep. Shopping list, terms, and imformation](#shopping_list)
-2. [Step 1. Getting Linux on your USB](#Step1)
+2. [Step 1. Getting Linux on your USB](#step1)
 
 <div id='shopping_list'/>
 
@@ -42,7 +42,7 @@ For more info see this wikipedia article https://en.wikipedia.org/wiki/Desktop_e
 - WM: WM is short for Window Manager. A Window Manager is software that, as the name implies, manages your windows (the little boxes of programs that show up on your screen like google). The window manager mainly handles their position and how they move around, though that's a gross oversimplification.
 afor more info see this wikipedia article https://en.wikipedia.org/wiki/Window_manager
 
-<div id='Step1'/>
+<div id='step1'/>
 
 # Step 1. Getting Linux on your USB
 
