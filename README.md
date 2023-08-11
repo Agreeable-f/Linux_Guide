@@ -115,6 +115,9 @@ For Balena Etcher we'll use the portable version as it skips the need to install
 
 ![Balena Etcher download button](balena_download.png)
 
+Now plug in your USB drive and you're ready to use etcher.
+
+To use Etcher, simply run the .exe you just downloaded (probably in your downloads). (If you don't see the .exe at the end don't worry. Go to the view tab at the top of file explorer, and click the "Show file extensions" check box. You should now be able to see the .exe) To run the .exe you can either double click it(left click). Or right click it and select run as admin.(NOTE: Running as admin may fix some issues when running ventoy so it is generally suggested to use this method) This should open Etcher.
 
 <div id='step2'/>
 
