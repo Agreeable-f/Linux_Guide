@@ -6,7 +6,7 @@
 1. [Prep. Shopping list, terms, and imformation](#shopping_list)
     1. [Some important terms](#terms)
 2. [Step 1. Getting Linux on your USB](#step1)
-    1.[Downloading Ventoy](#dlventoy)
+    1. [Downloading Ventoy](#dlventoy)
 
 <div id='shopping_list'/>
 
