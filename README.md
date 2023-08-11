@@ -116,7 +116,7 @@ When it's done the boxes "Ventoy in Package" and "Ventoy in Device" should match
 
 ### Putting Your ISO on your USB
 
-Putting your ISO on your USB is quite simple. Open file explorer and go to where you downloaded your NixOS ISO (probably in your downloads). Then, on the left find where your USB drive is. If there are two pertitions or two USB drives showing up, you'll want the larger one. (there may be two showing up as one is the ventoy partition which is what boots up so you can select what iso you want to use. The other, larger one, is where you will store your ISO's. The best part is you can add as many as you can fit on your USB.) 
+Putting your ISO on your USB is quite simple. Open file explorer and go to where you downloaded your NixOS ISO (probably in your downloads). Then, on the left find where your USB drive is. If there are two partitions or two USB drives showing up, you'll want the larger one. (there may be two showing up as one is the ventoy partition which is what boots up so you can select what iso you want to use. The other, larger one, is where you will store your ISO's. The best part is you can add as many as you can fit on your USB.) 
 
 Now that you've located your USB drive, simply drag and drop the ISO from your downloads to your USB. {idk if it asks to move or copy but here's this in case. "if it asks you to move or copy, selecting copy will leave a copy behind in case you want it for later."}
 
@@ -127,6 +127,8 @@ You now have your ISO on your USB and you're ready for [Step 2.](#step2) No need
 ## Option 2. Balena Etcher
 
 Balena Etcher etches or burns the image on to that USB. Similar to burning a CD back in the day. This means that you will only be able to boot to that single ISO or image that's burned to that USB drive. Though much more limited this method is alot simpler and will serve it's purpose for this guide.
+
+#### NOTE: You can use your USB drive for other things after this. You'll just have to format your drive.
 
 <div id='dlbalena'/>
 
@@ -144,7 +146,9 @@ Now plug in your USB drive and you're ready to use etcher.
 
 ### Using Etcher
 
-To open Etcher, simply run the .exe you just downloaded (probably in your downloads). (If you don't see the .exe at the end don't worry. Go to the view tab at the top of file explorer, and click the "Show file extensions" check box. You should now be able to see the .exe) To run the .exe you can either double click it(left click). Or right click it and select run as admin.(NOTE: Running as admin may fix some issues when running ventoy so it is generally suggested to use this method) This should open Etcher.
+To open Etcher, simply run the .exe you just downloaded (probably in your downloads). (If you don't see the .exe at the end don't worry. Go to the view tab at the top of file explorer, and click the "Show file extensions" check box. You should now be able to see the .exe)  
+
+To run the .exe you can either double click it(left click). Or right click it and select run as admin.(NOTE: Running as admin may fix some issues when running ventoy so it is generally suggested to use this method) This should open Etcher.
 
 Now that Etcher is open you should see an big button on the left saying "Flash from file". Click that button and select the NixOS ISO that you downloaded in [Prep. Shopping List](#shopping_list). (probably in your downloads)
 
