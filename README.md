@@ -9,6 +9,8 @@
     1. [Option 1. Ventoy](#o1ventoy)
         1. [Downloading Ventoy](#dlventoy)
         2. [Setting up Ventoy](#suventoy)
+        3. [Using Ventoy](useventoy)
+        4. [Putting your ISO on your USB](#isotoventoy)
     1. [Option 2. Balena Etcher](#o2balena)
         1. [Downloading Balena](#dlbalena)
 
@@ -98,6 +100,30 @@ Now, plug in your USB drive.
 Next, run the file named "Ventoy2Disk.exe". This will be in that folder you just extracted. (If you don't see the .exe at the end don't worry. Go to the view tab at the top of file explorer, and click the "Show file extensions" check box. You should now be able to see the .exe)
 
 You can either double click it(left click). Or right click it and select run as admin.(NOTE: Running as admin may fix some issues when running ventoy so it is generally suggested to use this method) This should open the ventoy tool.
+
+<div id='useventoy'/>
+
+### Using Ventoy
+
+Now that you have ventoy open we're ready to install it to your USB. To do this, look under device and make sure you have the correct drive selected. This should be your USB that you're installing to. 
+
+{image showing what to look at here}
+
+If it's not already shown there click the little down arrow on the right side of the device box and select your USB drive from the drop down. 
+
+{image showing the button}
+
+{image showing the drop down with option selected.}
+
+Once you have your USB drive selected, click Install and let it do it's thing.
+
+When it's done the boxes "Ventoy in Package" and "Ventoy in Device" should match
+
+{image showing matching boxes here}
+
+<div id='isotoventoy'/>
+
+### Putting Your ISO on your USB
 
 <div id='o2balena'/>
 
