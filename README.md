@@ -111,7 +111,9 @@ Balena Etcher etches or burns the image on to that USB. Similar to burning a CD 
 
 Doanload link: https://etcher.balena.io/#download-etcher
 
-{insert download image here. i'll worry about this later since the guide doesn't use this option.}
+For Balena Etcher we'll use the portable version as it skips the need to install.
+
+![Balena Etcher download button](balena_download.png)
 
 
 <div id='step2'/>
