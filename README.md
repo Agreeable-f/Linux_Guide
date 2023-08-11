@@ -63,7 +63,7 @@ afor more info see this wikipedia article https://en.wikipedia.org/wiki/Window_m
 
 ## Option 1. Ventoy (We'll be using this option for the rest of the guide.)
 
-Ventoy creates a bootable USB drive that will allow you to select whatever ISO you want (as long as it's on the USB drive). Using ventoy to boot into Linux will be covered in Step 3.
+Ventoy creates a bootable USB drive that will allow you to select whatever ISO you want (as long as it's on the USB drive). Using ventoy to boot into Linux will be covered in [Step 2](#step2).
 
 <div id='dlventoy'/>
 
