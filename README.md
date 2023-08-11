@@ -4,7 +4,9 @@
 
 ### Contents
 1. [Prep. Shopping list, terms, and imformation](#shopping_list)
+    1. [Some important terms](#terms)
 2. [Step 1. Getting Linux on your USB](#step1)
+    1.[Downloading Ventoy](#dlventoy)
 
 <div id='shopping_list'/>
 
@@ -23,6 +25,8 @@ Scroll down until you find this section and click Download. (We'll be using the 
 {Insert NixOS_download.png here}
 
 4. A tool to get the linux ISO on to the usb. (This will be covered in Step 1.)
+
+<div id='terms'/>
 
 ### Some important terms
 
@@ -52,6 +56,7 @@ afor more info see this wikipedia article https://en.wikipedia.org/wiki/Window_m
 
 Ventoy creates a bootable USB drive that will allow you to select whatever ISO you want (as long as it's on the USB drive). Using ventoy to boot into Linux will be covered in Step 3.
 
+<div id='dlventoy'/>
 
 ### Downloading Ventoy
 
