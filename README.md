@@ -104,11 +104,9 @@ Now that you have ventoy open we're ready to install it to your USB. To do this,
 
 If it's not already shown there click the little down arrow on the right side of the device box and select your USB drive from the drop down. 
 
-{image showing the button}
-
-{image showing the drop down with option selected.}
-
 Once you have your USB drive selected, click Install and let it do it's thing.
+
+{image showing install button}
 
 When it's done the boxes "Ventoy in Package" and "Ventoy in Device" should match
 
