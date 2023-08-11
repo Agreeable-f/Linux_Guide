@@ -69,15 +69,7 @@ Ventoy creates a bootable USB drive that will allow you to select whatever ISO y
 
 ### Downloading Ventoy
 
-For ventoy you have 2 ways to download. Both of which give you the same thing so you can pick one way or the other.
-
-Download link 1: https://www.ventoy.net/en/download.html
-
-You'll want the one with windows.zip at the end. As ventoy gets updated the verison number will change. As of making this guide it's 1.0.94.
-
-![Ventoy Download Button1](ventoy_download1.png)
-
-Download link 2: https://github.com/ventoy/Ventoy/releases
+Download link: https://github.com/ventoy/Ventoy/releases
 
 You'll want the one with windows.zip at the end. As ventoy gets updated the verison number will change. As of making this guide it's 1.0.94.
 
