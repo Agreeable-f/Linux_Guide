@@ -6,7 +6,9 @@
 1. [Prep. Shopping list, terms, and imformation](#shopping_list)
     1. [Some important terms](#terms)
 2. [Step 1. Getting Linux on your USB](#step1)
-    1. [Downloading Ventoy](#dlventoy)
+    1. [Option 1. Ventoy](#o1ventoy)
+        1. [Downloading Ventoy](#dlventoy)
+        2. [Setting up Ventoy](#suventoy)
 
 <div id='shopping_list'/>
 
@@ -52,6 +54,8 @@ afor more info see this wikipedia article https://en.wikipedia.org/wiki/Window_m
 
 ## For putting Linux on the USB we have two options. Doing either of which will remove everything on your USB drive so make sure you have everything backed up.
 
+<div id='o1ventoy'/>
+
 ## Option 1. Ventoy (We'll be using this option for the rest of the guide.)
 
 Ventoy creates a bootable USB drive that will allow you to select whatever ISO you want (as long as it's on the USB drive). Using ventoy to boot into Linux will be covered in Step 3.
@@ -73,6 +77,8 @@ Download link 2: https://github.com/ventoy/Ventoy/releases
 You'll want the one with windows.zip at the end. As ventoy gets updated the verison number will change. As of making this guide it's 1.0.94.
 
 {insert ventoy_download2.png here}
+
+<div id='suventoy'/>
 
 ### Setting up Ventoy
 
