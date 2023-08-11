@@ -72,13 +72,13 @@ Download link 1: https://www.ventoy.net/en/download.html
 
 You'll want the one with windows.zip at the end. As ventoy gets updated the verison number will change. As of making this guide it's 1.0.94.
 
-{insert ventoy_download1.png here}
+![Ventoy Download Button1(ventoy_download1.png)
 
 Download link 2: https://github.com/ventoy/Ventoy/releases
 
 You'll want the one with windows.zip at the end. As ventoy gets updated the verison number will change. As of making this guide it's 1.0.94.
 
-{insert ventoy_download2.png here}
+![Ventoy Download Button2(ventoy_download2.png)
 
 <div id='suventoy'/>
 
