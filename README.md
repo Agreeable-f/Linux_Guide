@@ -30,7 +30,7 @@ Scroll down until you find this section and click Download. (We'll be using the 
 
 ![NixOS download button](NixOS_download.png)
 
-4. A tool to get the linux ISO on to the usb. (This will be covered in Step 1.)
+4. A tool to get the linux ISO on to the usb. (This will be covered in [Step 1.](#step1))
 
 <div id='terms'/>
 
