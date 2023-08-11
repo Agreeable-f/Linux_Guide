@@ -158,6 +158,10 @@ Once you have your ISO selected make sure you have your USB drive selected. If i
 
 {image of the change button here}
 
+{image of the drive select menu that opens here}
+
+Make sure everything is correct and if it is, click the big flash button and let it do it's thing. Let it finish and when it does, you're ready to use your USB. No need to un-plug it as we'll be using it in [Step 2.](#step2)
+
 <div id='step2'/>
 
 # Step 2. 
