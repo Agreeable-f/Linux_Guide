@@ -13,6 +13,7 @@
         4. [Putting your ISO on your USB](#isotoventoy)
     1. [Option 2. Balena Etcher](#o2balena)
         1. [Downloading Balena](#dlbalena)
+        2. [Using Etcher](#useetcher)
 
 <div id='shopping_list'/>
 
@@ -143,7 +144,19 @@ For Balena Etcher we'll use the portable version as it skips the need to install
 
 Now plug in your USB drive and you're ready to use etcher.
 
-To use Etcher, simply run the .exe you just downloaded (probably in your downloads). (If you don't see the .exe at the end don't worry. Go to the view tab at the top of file explorer, and click the "Show file extensions" check box. You should now be able to see the .exe) To run the .exe you can either double click it(left click). Or right click it and select run as admin.(NOTE: Running as admin may fix some issues when running ventoy so it is generally suggested to use this method) This should open Etcher.
+To open Etcher, simply run the .exe you just downloaded (probably in your downloads). (If you don't see the .exe at the end don't worry. Go to the view tab at the top of file explorer, and click the "Show file extensions" check box. You should now be able to see the .exe) To run the .exe you can either double click it(left click). Or right click it and select run as admin.(NOTE: Running as admin may fix some issues when running ventoy so it is generally suggested to use this method) This should open Etcher.
+
+<div id='useetcher'/>
+
+### Using Etcher
+
+Now that Etcher is open you should see an big button on the left saying "Select Image". Click that button and select the NixOS ISO that you downloaded in [Prep. Shopping List](#shopping_list). (probably in your downloads)
+
+{image of select image button here}
+
+Once you have your ISO selected make sure you have your USB drive selected. If it's not already selected click the "change" button in the middle and select the correct drive.
+
+{image of the change button here}
 
 <div id='step2'/>
 
