@@ -1,6 +1,8 @@
 # Step by step guide to your first time in Linux!
 
-### This is an in-depth guide you through your first time using linux from being a complete beginner with computers.
+### This is an in-depth guide you through your first time using linux from being a complete beginner with computers. 
+
+### The method in this guide doesn't require you to install linux to try it out, however there will be instructions on how to do that as well.
 
 ### Contents
 1. [Prep. Shopping list, terms, and imformation](#shopping_list)
@@ -14,6 +16,11 @@
     1. [Option 2. Balena Etcher](#o2balena)
         1. [Downloading Balena](#dlbalena)
         2. [Using Etcher](#useetcher)
+3. [Step 2. Booting into Linux](#step2)
+    1. [Getting to your boot menu](#bootmenu)
+    2. [Navigating Ventoy](#navventoy)
+    3. [The Live Environment](#liveenv)
+4. [Step 3. Learning Linux](#step3)
 
 <div id='shopping_list'/>
 
@@ -164,10 +171,34 @@ Make sure everything is correct and if it is, click the big flash button and let
 
 <div id='step2'/>
 
-# Step 2. 
+# Step 2. Booting into Linux
+
+Booting into Linux is the final hurdle before you can start learning about it, and using it.
+
+#### NOTE: Nothing you do will get saved in the live environment
+
+<div id='bootmenu'/>
+
+## Getting to your boot menu
 
 
+<div id='navventoy'/>
+
+## Navigating Ventoy
+
+
+<div id='liveenv'/>
+
+## The Live Environment
+
+The live environment is where you can use fully featured linux without having to install. as mentioned before nothing you do here will get saved. You'll have to install for thatl
 
 <div id='step3'/>
 
-# Step 3. 
+# Step 3. Learning Linux
+
+
+<div id='step4'/>
+
+# Step 4. 
+
