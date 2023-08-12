@@ -175,7 +175,7 @@ Make sure everything is correct and if it is, click the big flash button and let
 
 Booting into Linux is the final hurdle before you can start learning about it, and using it.
 
-#### NOTE: Nothing you do will get saved in the live environment
+#### NOTE: Nothing you do will get saved in the live environment. (this will be explained later in [The Live Environment](#liveenv))
 
 <div id='bootmenu'/>
 
