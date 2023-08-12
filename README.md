@@ -84,7 +84,9 @@ There's a more informative guide on how to do this here: https://www.ventoy.net/
 #### NOTE: The above guide doesn't cover things super in-depth so if you're a total novice it may be intimidating.
 
 
-First, unzip the .zip that you downloaded. To do this open file explorer and find the .zip file you just downloaded (probably in your downloads). Right click on the file and click extract here. This will make a folder named the same as the zip file. (Optionally If you want to be organized i suggest putting the ventoy folder in your documents folder for easy access. Now it won't get lost in your downloads.) (If you don't see the .zip at the end don't worry. Go to the view tab at the top of file explorer, and click the "Show file extensions" check box. You should now be able to see the .zip)
+First, unzip the .zip that you downloaded. To do this open file explorer and find the .zip file you just downloaded (probably in your downloads). Right click on the file and click extract here. This will make a folder named the same as the zip file. 
+
+(Optionally If you want to be organized i suggest putting the ventoy folder in your documents folder for easy access. Now it won't get lost in your downloads.) (If you don't see the .zip at the end don't worry. Go to the view tab at the top of file explorer, and click the "Show file extensions" check box. You should now be able to see the .zip)
 
 Now, plug in your USB drive and you're ready to use ventoy.
 
