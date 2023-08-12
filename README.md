@@ -175,12 +175,19 @@ Make sure everything is correct and if it is, click the big flash button and let
 
 Booting into Linux is the final hurdle before you can start learning about it, and using it.
 
-#### NOTE: Nothing you do will get saved in the live environment. (this will be explained later in [The Live Environment](#liveenv))
+#### NOTE: Nothing you do will get saved in the live environment. (This will be explained later in [The Live Environment](#liveenv))
 
 <div id='bootmenu'/>
 
 ## Getting to your boot menu
 
+The boot menu is what you will use to select your USB drive with Linux on it. The boot menu is part of your computer, more specifically the Bios on the motherboard.
+
+To get to your Boot menu you will need to hold a key while your computer is booting.
+
+This blog post has some good resources to find what key that may be. Most commonly it will be F12, F10, F8, or esc. (On laptops these may be on your number keys and you might have to hold fn as well)  
+
+https://techofide.com/blogs/boot-menu-option-keys-for-all-computers-and-laptops-updated-list-2021-techofide/#Boot%20Menu
 
 <div id='navventoy'/>
 
