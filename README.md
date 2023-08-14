@@ -228,13 +228,15 @@ https://techofide.com/blogs/boot-menu-option-keys-for-all-computers-and-laptops-
 
 ## Navigating Ventoy
 
-
+#### NOTE: If you used [Rufus](#o3rufus) or [Balena Etcher](#o2etcher) you can skip to [The Live Environment](#liveenv)
 
 <div id='liveenv'/>
 
 ## The Live Environment
 
-The live environment is where you can use fully featured linux without having to install. as mentioned before nothing you do here will get saved. You'll have to install for thatl
+The live environment is where you can use fully featured linux without having to install. As mentioned before nothing you do here will get saved, you'll have to install for that. However, for the purposes of trying out linux and getting farmiliar with it, the live environment is a safe way to do so without making any commitments.
+
+*Most* linux installers boot into a live environment by default, simply close out of the installer or click the "Try Nix" button. 
 
 <div id='step3'/>
 
