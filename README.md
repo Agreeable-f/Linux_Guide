@@ -182,7 +182,7 @@ Let it finish and when it does, you're ready to use your USB. No need to un-plug
 
 ### Option 3. Rufus
 
-#### NOTE: Rufus creates a bootable install of linux (or whatever os you chose) and does not give you the ability to install to a disk (your pc) or run the live environment later on.
+Rufus creates a bootable install of linux (or whatever os you chose). However, you will only be able to boot to that single ISO or image that's burned to that USB drive.
 
 <div id='dlrufus'/>
 
@@ -203,8 +203,6 @@ Now plug in your USB drive and you're ready to use Rufus.
 To open Rufus, simply run the .exe you just downloaded (probably in your downloads). (If you don't see the .exe at the end don't worry. Go to the view tab at the top of file explorer, and click the "Show file extensions" check box. You should now be able to see the .exe)  
 
 To run the .exe you can either double click it (left click). Or right click it and select run as admin.(NOTE: Running as admin may fix some issues when running Rufus so it is generally suggested to use this method) This should open Rufus.
-
-
 
 <div id='step2'/>
 
@@ -229,6 +227,7 @@ https://techofide.com/blogs/boot-menu-option-keys-for-all-computers-and-laptops-
 <div id='navventoy'/>
 
 ## Navigating Ventoy
+
 
 
 <div id='liveenv'/>
