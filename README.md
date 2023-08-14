@@ -162,7 +162,7 @@ Now plug in your USB drive and you're ready to use etcher.
 
 To open Etcher, simply run the .exe you just downloaded (probably in your downloads). (If you don't see the .exe at the end don't worry. Go to the view tab at the top of file explorer, and click the "Show file extensions" check box. You should now be able to see the .exe)  
 
-To run the .exe you can either double click it(left click). Or right click it and select run as admin.(NOTE: Running as admin may fix some issues when running Etcher so it is generally suggested to use this method) This should open Etcher.
+To run the .exe you can either double click it (left click). Or right click it and select run as admin.(NOTE: Running as admin may fix some issues when running Etcher so it is generally suggested to use this method) This should open Etcher.
 
 Now that Etcher is open you should see an big button on the left saying "Flash from file". Click that button and select the NixOS ISO that you downloaded in [Prep. Shopping List](#shopping_list). (probably in your downloads)
 
@@ -200,7 +200,7 @@ Now plug in your USB drive and you're ready to use Rufus.
 
 To open Rufus, simply run the .exe you just downloaded (probably in your downloads). (If you don't see the .exe at the end don't worry. Go to the view tab at the top of file explorer, and click the "Show file extensions" check box. You should now be able to see the .exe)  
 
-To run the .exe you can either double click it(left click). Or right click it and select run as admin.(NOTE: Running as admin may fix some issues when running Rufus so it is generally suggested to use this method) This should open Rufus.
+To run the .exe you can either double click it (left click). Or right click it and select run as admin.(NOTE: Running as admin may fix some issues when running Rufus so it is generally suggested to use this method) This should open Rufus.
 
 
 
