@@ -32,7 +32,9 @@
 
 2. A pc running windows with a usb port. (while you *can* do this on an intel based mac but it's not covered in this guide)
 
-3. A Linux ISO.  For this guide we'll be using NixOS. https://nixos.org/download
+3. A Linux ISO.  For this guide we'll be using NixOS as it's built to be stable and repeatable. https://nixos.org/download
+
+#### NOTE: You can use any distro you like. This guide just covers NixOS but the steps until [Step 3.](#step3) are identical
 
 Scroll down until you find this section and click Download. (We'll be using the Plasma version as it's more Windows like and should be more farmiliar to you. You may choose the gnome version if you'd like but that's not covered in this guide)
 
@@ -100,6 +102,8 @@ Now, plug in your USB drive and you're ready to use ventoy.
 <div id='useventoy'/>
 
 ### Using Ventoy
+
+#### NOTE: If you've already installed ventoy on your USB you can skip to [Putting Your ISO on your USB](#isotoventoy).
 
 First, run the file named "Ventoy2Disk.exe". This will be in that folder you just extracted. (If you don't see the .exe at the end don't worry. Go to the view tab at the top of file explorer, and click the "Show file extensions" check box. You should now be able to see the .exe)
 
