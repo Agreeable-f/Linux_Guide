@@ -13,9 +13,11 @@
         2. [Setting up Ventoy](#suventoy)
         3. [Using Ventoy](#useventoy)
         4. [Putting your ISO on your USB](#isotoventoy)
-    1. [Option 2. Balena Etcher](#o2balena)
+    2. [Option 2. Balena Etcher](#o2balena)
         1. [Downloading Balena](#dlbalena)
         2. [Using Etcher](#useetcher)
+    3. [Option 3. Rufus](#o3rufus)
+        1. [Downloading Rufus](#dlrufus)
 3. [Step 2. Booting into Linux](#step2)
     1. [Getting to your boot menu](#bootmenu)
     2. [Navigating Ventoy](#navventoy)
@@ -66,13 +68,13 @@ For more info see this wikipedia article https://en.wikipedia.org/wiki/Window_ma
 
 # Step 1. Getting Linux on your USB
 
-## For putting Linux on the USB we have two options. Doing either of which will remove everything on your USB drive so make sure you have everything backed up.
+## For putting Linux on the USB we have a few options. Doing any one of which will remove everything on your USB drive so make sure you have everything backed up.
 
 <div id='o1ventoy'/>
 
 ## Option 1. Ventoy (We'll be using this option for the rest of the guide.)
 
-Ventoy creates a bootable USB drive that will allow you to select whatever ISO you want (as long as it's on the USB drive). Using ventoy to boot into Linux will be covered in [Step 2](#step2).
+#### NOTE: Ventoy creates a bootloader (This will be covered in [Learning Linux](#step3)) on your USB drive that will allow you to select whatever ISO you want (as long as it's on the USB drive). It also allows you to quickly chose between whatever distro's ISO you have on your ventoy
 
 <div id='dlventoy'/>
 
@@ -177,7 +179,19 @@ Make sure everything is correct and if it is, click the big flash button and let
 
 ### Option 3. Rufus
 
-#### NOTE: Rufus creates a bootable install of linux (or whatever os you chose) and does not give you the ability to install to a disk or run the live environment later on.
+#### NOTE: Rufus creates a bootable install of linux (or whatever os you chose) and does not give you the ability to install to a disk (your pc) or run the live environment later on.
+
+<div id='dlrufus'/>
+
+### Downloading Rufus
+
+Download Link: https://rufus.ie/
+
+Scroll down a bit until you see the download section. You'll want the one with p.exe at the end. This signifies it's the portable version. We'll be using the portable version as it skips the need to install.
+
+![Rufus download button](rufus_download.png)
+
+
 
 <div id='step2'/>
 
