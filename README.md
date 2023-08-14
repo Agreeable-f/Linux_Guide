@@ -168,13 +168,17 @@ Now that Etcher is open you should see an big button on the left saying "Flash f
 
 ![Balena Etcher Flash Button](balena_image_button.png)
 
-Once you have your ISO selected make sure you have your USB drive selected. If it's not already selected click the "change" button in the middle and select the correct drive.
+Once you have your ISO selected make sure you have your USB drive selected. To do this, click the "select drive" button and pick your USB drive.
 
 ![Balena Etcher Select Target Button](balena_Select_target_button.png)
 
-{image of the drive select menu that opens here}
+![Balena Etcher With Drive Selected](balena_with_drive.png)
 
-Make sure everything is correct and if it is, click the big flash button and let it do it's thing. Let it finish and when it does, you're ready to use your USB. No need to un-plug it as we'll be using it in [Step 2.](#step2)
+Make sure everything is correct and if it is, click the big flash button and let it do it's thing. 
+
+![Balena Etcher Flash Button](balena_flash_button.png)
+
+Let it finish and when it does, you're ready to use your USB. No need to un-plug it as we'll be using it in [Step 2.](#step2)
 
 <div id='o3rufus'/>
 
