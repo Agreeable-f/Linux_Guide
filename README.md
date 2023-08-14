@@ -180,7 +180,7 @@ Let it finish and when it does, you're ready to use your USB. No need to un-plug
 
 <div id='o3rufus'/>
 
-### Option 3. Rufus
+## Option 3. Rufus
 
 Rufus creates a bootable install of linux (or whatever os you chose). However, you will only be able to boot to that single ISO or image that's burned to that USB drive.
 
