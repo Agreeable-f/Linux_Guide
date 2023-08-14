@@ -172,8 +172,6 @@ Once you have your ISO selected make sure you have your USB drive selected. To d
 
 ![Balena Etcher Select Target Button](balena_Select_target_button.png)
 
-![Balena Etcher With Drive Selected](balena_with_drive.png)
-
 Make sure everything is correct and if it is, click the big flash button and let it do it's thing. 
 
 ![Balena Etcher Flash Button](balena_flash_button.png)
