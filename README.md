@@ -194,7 +194,7 @@ Scroll down a bit until you see the download section. You'll want the one with p
 
 Now plug in your USB drive and you're ready to use Rufus.
 
-<div id='userufus/>
+<div id='userufus'/>
 
 ### Using Rufus
 
