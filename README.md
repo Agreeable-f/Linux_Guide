@@ -20,7 +20,7 @@
         1. [Downloading Rufus](#dlrufus)
         2. [Using Rufus](#userufus)
 3. [Step 2. Booting into Linux](#step2)
-    1. [Getting to your boot menu](#bootmenu)
+    1. [Getting to your BIOS](#bios)
     2. [Navigating Ventoy](#navventoy)
     3. [The Live Environment](#liveenv)
 4. [Step 3. Learning Linux](#step3)
@@ -212,13 +212,15 @@ Booting into Linux is the final hurdle before you can start learning about it, a
 
 #### NOTE: Nothing you do will get saved in the live environment. (This will be explained later in [The Live Environment](#liveenv))
 
-<div id='bootmenu'/>
+<div id='bios'/>
 
-## Getting to your boot menu
+## Getting to your BIOS
 
-The boot menu is what you will use to select your USB drive with Linux on it. The boot menu is part of your computer, more specifically the Bios on the motherboard.
+The BIOS is like integrated software on the motherboard that lets you change some special settings about your computer.
 
-To get to your Boot menu you will need to hold a key while your computer is booting.
+The BIOS is also where you can change what drive your pc uses to boot. We'll be going into it to tell your pc to boot off your USB drive with Linux on it. 
+
+To get to your BIOS you will need to hold a key while your computer is booting.
 
 This blog post has some good resources to find what key that may be. Most commonly it will be F12, F10, F8, or esc. (On laptops these may be on your number keys and you might have to hold fn as well)  
 
