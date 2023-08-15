@@ -230,6 +230,8 @@ https://techofide.com/blogs/boot-menu-option-keys-for-all-computers-and-laptops-
 
 #### NOTE: If you used [Rufus](#o3rufus) or [Balena Etcher](#o2etcher) you can skip to [The Live Environment](#liveenv)
 
+Navigating Ventoy is pretty simple and not too different from how most Linux distros boot when installed.
+
 <div id='liveenv'/>
 
 ## The Live Environment
