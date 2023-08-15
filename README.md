@@ -20,9 +20,11 @@
         1. [Downloading Rufus](#dlrufus)
         2. [Using Rufus](#userufus)
 3. [Step 2. Booting into Linux](#step2)
-    1. [Getting to your BIOS](#bios)
-    2. [Navigating Ventoy](#navventoy)
-    3. [The Live Environment](#liveenv)
+    1. [The BIOS](#bios)
+        1. [Getting to your BIOS](#tobios)
+        2. [Navigating your BIOS](#navbios)
+        3. [Navigating Ventoy](#navventoy)
+    2. [The Live Environment](#liveenv)
 4. [Step 3. Learning Linux](#step3)
 
 <div id='shopping_list'/>
@@ -214,17 +216,27 @@ Booting into Linux is the final hurdle before you can start learning about it, a
 
 <div id='bios'/>
 
-## Getting to your BIOS
+## The BIOS
 
 The BIOS is like integrated software on the motherboard that lets you change some special settings about your computer.
 
 The BIOS is also where you can change what drive your pc uses to boot. We'll be going into it to tell your pc to boot off your USB drive with Linux on it. 
 
+<div id='tobios'/>
+
+### Getting to your BIOS
+
 To get to your BIOS you will need to hold a key while your computer is booting.
 
-This blog post has some good resources to find what key that may be. Most commonly it will be F12, F10, F8, or esc. (On laptops these may be on your number keys and you might have to hold fn as well)  
+Some computers will tell you what key leads to the bios when they boot. Most commonly it will be the "delete" or del key on more modern systems. Other common keys would be f2, f12, f10, or f1. You can hold them all at once if you're really not sure but that's not reccomended.
 
-https://techofide.com/blogs/boot-menu-option-keys-for-all-computers-and-laptops-updated-list-2021-techofide/#Boot%20Menu
+ (On laptops these may be on your number keys and you might have to hold fn as well)  
+
+<div id='navbios'/>
+
+### Navigating your BIOS
+
+Navigation or more simply moving around in your BIOS is done mostly through arrow keys and the enter key.
 
 <div id='navventoy'/>
 
