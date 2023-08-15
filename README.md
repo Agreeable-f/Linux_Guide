@@ -5,7 +5,7 @@
 ### The method in this guide doesn't require you to install linux to try it out, however there will be instructions on how to do that as well.
 
 ### Contents
-1. [Prep. Shopping list, terms, and imformation](#shopping_list)
+1. [Prep. Shopping list, terms, and information](#shopping_list)
     1. [Some important terms](#terms)
 2. [Step 1. Getting Linux on your USB](#step1)
     1. [Option 1. Ventoy](#o1ventoy)
