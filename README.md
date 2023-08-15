@@ -23,8 +23,8 @@
     1. [The BIOS](#bios)
         1. [Getting to your BIOS](#tobios)
         2. [Navigating your BIOS](#navbios)
-        3. [Navigating Ventoy](#navventoy)
-    2. [The Live Environment](#liveenv)
+    2. [Navigating Ventoy](#navventoy)
+    3. [The Live Environment](#liveenv)
 4. [Step 3. Learning Linux](#step3)
 
 <div id='shopping_list'/>
