@@ -67,6 +67,8 @@ For more info see this wikipedia article https://en.wikipedia.org/wiki/Desktop_e
 - WM: WM is short for Window Manager. A Window Manager is software that, as the name implies, manages your windows (the little boxes of programs that show up on your screen like google). The window manager mainly handles their position and how they move around, though that's a gross oversimplification.  
 For more info see this wikipedia article https://en.wikipedia.org/wiki/Window_manager
 
+- Package manager: A package manager is as the name implies what manages all the packages on your system. The packages on your system is what makes up the software you have installed.
+
 <div id='step1'/>
 
 # Step 1. Getting Linux on your USB
