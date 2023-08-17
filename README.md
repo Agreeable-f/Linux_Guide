@@ -222,7 +222,7 @@ Once your ISO has been selected you can click the "START" button at the bottom f
 
 ![Rufus Start Button](rufus_start_button.png)
 
-Let it finish doing it's thing and when it's done you can move on to [Step 2.](#step2)
+Let it finish doing it's thing and when it's done you can close Rufus. No need to un-plug your USB drive as we'll be using it in [Step 2.](#step2)
 
 <div id='step2'/>
 
