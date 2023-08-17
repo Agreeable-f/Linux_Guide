@@ -206,7 +206,23 @@ Now plug in your USB drive and you're ready to use Rufus.
 
 To open Rufus, simply run the .exe you just downloaded (probably in your downloads). (If you don't see the .exe at the end don't worry. Go to the view tab at the top of file explorer, and click the "Show file extensions" check box. You should now be able to see the .exe)  
 
-To run the .exe you can either double click it (left click). Or right click it and select run as admin.(NOTE: Running as admin may fix some issues when running Rufus so it is generally suggested to use this method) This should open Rufus.
+To run the .exe you can either double click it (left click). Or right click it and select run as admin.(NOTE: Running as admin may fix some issues when running Rufus so it is generally suggested to use this method) When it asks you if you want to check for updates click no. This should open Rufus. 
+
+Now that Rufus is open it should automatically detect your USB drive. If not, click the little down arrow on the right under "Devices" and choose the correct one.
+
+![Rufus Device Arrow](rufus_drive_button.png)
+
+Now that your USB drive is selected you can chose the ISO that rufus will install. To do this, simply click the "SELECT" button, then find your ISO (probably in your downloads).
+
+![Rufus Select Button](rufus_select_button.png)
+
+Once your ISO has been selected you can click the "START" button at the bottom for it to start writing your Linux ISO to your USB drive. 
+
+#### NOTE: If you want to actually install linux to this USB drive you can move the "Persistent partition size" slider all the way to the right. This will allow that space to be installed to.
+
+![Rufus Start Button](rufus_start_button.png)
+
+Let it finish doing it's thing and when it's done you can move on to [Step 2.](#step2)
 
 <div id='step2'/>
 
