@@ -218,7 +218,7 @@ Now that your USB drive is selected you can chose the ISO that rufus will instal
 
 Once your ISO has been selected you can click the "START" button at the bottom for it to start writing your Linux ISO to your USB drive. 
 
-#### NOTE: If you want to actually install linux to this USB drive you can move the "Persistent partition size" slider all the way to the right. This will allow that space to be installed to.
+#### NOTE: If you want to actually install linux to this USB drive you can move the "Persistent partition size" slider all the way to the right. This will allow that space to be installed to, however this guide doesn't cover that.
 
 ![Rufus Start Button](rufus_start_button.png)
 
