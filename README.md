@@ -43,7 +43,7 @@
 
 Scroll down until you find this section and click Download. (We'll be using the Plasma version as it's more Windows like and should be more farmiliar to you. You may choose the gnome version if you'd like but that's not covered in this guide)
 
-![NixOS download button](images/NixOS_download.png)
+![NixOS download button](Images/NixOS_download.png)
 
 4. A tool to get the linux ISO on to the usb. (This will be covered in [Step 1.](#step1))
 
@@ -89,7 +89,7 @@ Download link: https://github.com/ventoy/Ventoy/releases
 
 You'll want the one with windows.zip at the end. As ventoy gets updated the verison number will change. As of making this guide it's 1.0.94.
 
-![Ventoy Download Button](ventoy_download.png)
+![Ventoy Download Button](Images/ventoy_download.png)
 
 <div id='suventoy'/>
 
@@ -118,17 +118,17 @@ You can either double click it(left click). Or right click it and select run as 
 
 Now that you have ventoy open we're ready to install it to your USB. To do this, look under device and make sure you have the correct drive selected. This should be your USB that you're installing to. 
 
-![Ventoy Drive Selection](ventoy_drive_Selected.png)
+![Ventoy Drive Selection](Images/ventoy_drive_Selected.png)
 
 If it's not already shown there click the little down arrow on the right side of the device box and select your USB drive from the drop down. 
 
 Once you have your USB drive selected, click Install and let it do it's thing.
 
-![Ventoy Install Button](ventoy_install_button.png)
+![Ventoy Install Button](Images/ventoy_install_button.png)
 
 When it's done the boxes "Ventoy in Package" and "Ventoy in Device" should match
 
-![Ventoy Completed Screen](ventoy_completed.png)
+![Ventoy Completed Screen](Images/ventoy_completed.png)
 
 <div id='isotoventoy'/>
 
@@ -156,7 +156,7 @@ Doanload link: https://etcher.balena.io/#download-etcher
 
 For Balena Etcher we'll use the portable version as it skips the need to install.
 
-![Balena Etcher download button](balena_download.png)
+![Balena Etcher download button](Images/balena_download.png)
 
 Now plug in your USB drive and you're ready to use etcher.
 
@@ -170,15 +170,15 @@ To run the .exe you can either double click it (left click). Or right click it a
 
 Now that Etcher is open you should see an big button on the left saying "Flash from file". Click that button and select the NixOS ISO that you downloaded in [Prep. Shopping List](#shopping_list). (probably in your downloads)
 
-![Balena Etcher Flash Button](balena_image_button.png)
+![Balena Etcher Flash Button](Images/balena_image_button.png)
 
 Once you have your ISO selected make sure you have your USB drive selected. To do this, click the "select drive" button and pick your USB drive.
 
-![Balena Etcher Select Target Button](balena_Select_target_button.png)
+![Balena Etcher Select Target Button](Images/balena_Select_target_button.png)
 
 Make sure everything is correct and if it is, click the big flash button and let it do it's thing. 
 
-![Balena Etcher Flash Button](balena_flash_button.png)
+![Balena Etcher Flash Button](Images/balena_flash_button.png)
 
 Let it finish and when it does, you're ready to use your USB. No need to un-plug it as we'll be using it in [Step 2.](#step2)
 
@@ -196,7 +196,7 @@ Download Link: https://rufus.ie/
 
 Scroll down a bit until you see the download section. You'll want the one with p.exe at the end. This signifies it's the portable version. We'll be using the portable version as it skips the need to install.
 
-![Rufus download button](rufus_download.png)
+![Rufus download button](Images/rufus_download.png)
 
 Now plug in your USB drive and you're ready to use Rufus.
 
@@ -210,17 +210,17 @@ To run the .exe you can either double click it (left click). Or right click it a
 
 Now that Rufus is open it should automatically detect your USB drive. If not, click the little down arrow on the right under "Devices" and choose the correct one.
 
-![Rufus Device Arrow](rufus_drive_button.png)
+![Rufus Device Arrow](Images/rufus_drive_button.png)
 
 Now that your USB drive is selected you can chose the ISO that rufus will install. To do this, simply click the "SELECT" button, then find your ISO (probably in your downloads).
 
-![Rufus Select Button](rufus_select_button.png)
+![Rufus Select Button](Images/rufus_select_button.png)
 
 Once your ISO has been selected you can click the "START" button at the bottom for it to start writing your Linux ISO to your USB drive. 
 
 #### NOTE: If you want to actually install linux to this USB drive you can move the "Persistent partition size" slider all the way to the right. This will allow that space to be installed to, however this guide doesn't cover that.
 
-![Rufus Start Button](rufus_start_button.png)
+![Rufus Start Button](Images/rufus_start_button.png)
 
 Let it finish doing it's thing and when it's done you can close Rufus. No need to un-plug your USB drive as we'll be using it in [Step 2.](#step2)
 
