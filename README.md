@@ -43,7 +43,7 @@
 
 Scroll down until you find this section and click Download. (We'll be using the Plasma version as it's more Windows like and should be more farmiliar to you. You may choose the gnome version if you'd like but that's not covered in this guide)
 
-![NixOS download button](NixOS_download.png)
+![NixOS download button](images/NixOS_download.png)
 
 4. A tool to get the linux ISO on to the usb. (This will be covered in [Step 1.](#step1))
 
