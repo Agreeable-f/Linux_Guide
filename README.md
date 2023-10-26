@@ -37,13 +37,14 @@
 
 2. A pc running windows with a usb port. (while you *can* do this on an intel based mac but it's not covered in this guide)
 
-3. A Linux ISO.  For this guide we'll be using Fedora Linux as it's built to be stable and repeatable. https://nixos.org/download
+3. A Linux ISO.  For this guide we'll be using Fedora Linux as it's a Stable Release packed with features.  
+https://fedoraproject.org/workstation/download/
 
-#### NOTE: You can use any distro you like. This guide just covers Fedora Linux but the steps until [Step 3.](#step3) are identical
+#### NOTE: You can use any distro you like. This guide just covers Fedora Linux but the steps until [Step 3.](#step3) are identical.
 
 Scroll down until you find this section and click Download. We'll be using the Workstation version.
 
-![Fedora Linux download button](Images/Fedora Linux_download.png)
+![Fedora Linux download button](Images/Fedora_Linux_download.png)
 
 4. A tool to get the linux ISO on to the usb. (This will be covered in [Step 1.](#step1))
 
@@ -266,13 +267,13 @@ Some computers will tell you what key leads to the bios when they boot. Most com
 
 ### Navigating your BIOS
 
-Navigation or more simply moving around in your BIOS is done mostly through arrow keys and the enter key.
+Navigation or more simply moving around in your BIOS is done mostly through arrow keys and the enter key, though some allow you to use your mouse.
 
 <div id='navventoy'/>
 
 ## Navigating Ventoy
 
-#### NOTE: If you used [Rufus](#o3rufus) or [Balena Etcher](#o2etcher) you can skip to [The Live Environment](#liveenv)
+#### NOTE: If you used [Rufus](#o2rufus) or [Balena Etcher](#o1etcher) you can skip to [The Live Environment](#liveenv)
 
 Navigating Ventoy is pretty simple and not too different from how most Linux distros boot when installed.
 
