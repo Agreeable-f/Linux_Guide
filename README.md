@@ -23,9 +23,10 @@
     1. [The BIOS](#bios)
         1. [Getting to your BIOS](#tobios)
         2. [Navigating your BIOS](#navbios)
-    2. [Navigating Ventoy](#navventoy)
-    3. [The Live Environment](#liveenv)
+            1. [Navigating Ventoy](#navventoy)
+        3. [Changing the boot order](#bootorder)
 4. [Step 3. Learning Linux](#step3)
+    1. [The Live Environment](#liveenv)
 
 <div id='shopping_list'/>
 
@@ -35,33 +36,33 @@
 
 1. Usb drive with at least ~8GB or more. (you can probably get away with less, around 4GB, but you'll be pretty limited as to what you can do)
 
-2. A pc running windows with a usb port. (while you *can* do this on an intel based mac but it's not covered in this guide)
+2. A pc running windows with a usb port. (while you *can* do this on an intel based mac, it's not covered in this guide)
 
 3. A Linux ISO.  For this guide we'll be using Fedora Linux as it's a Stable Release packed with features.  
 https://fedoraproject.org/workstation/download/
 
 #### NOTE: You can use any distro you like. This guide just covers Fedora Linux but the steps until [Step 3.](#step3) are identical.
 
-Scroll down until you find this section and click Download. We'll be using the Workstation version.
+Scroll down until you find this section and click the download icon on the far right. We'll be using the x86_64 version.
 
 ![Fedora Linux download button](Images/Fedora_Linux_download.png)
 
-4. A tool to get the linux ISO on to the usb. (This will be covered in [Step 1.](#step1))
+4. A tool to get the Linux ISO on to the usb. (This will be covered in [Step 1.](#step1))
 
 <div id='terms'/>
-
-### Some important terms
+<details>
+<summary> Some important terms </summary>
 
 <div id='Term_ISO'/>
 - ISO: An ISO, also known as an *image*, is an archive, usually as a backup of optical media like CD's. In this case it's used to distribute a copy of linux. Not too different from physical install disks from back in the day.
-
+<br>
 <div id='Term_Distro'/>
 - Distro: Distro, or distribution refers to the distribution of linux as there are many to chose from. Think of it like a supermarket. Target, Walmart, Kroger, Costco, would be the distributions or different choices under the umbrella term of "supermarket".
-
+<br>
 <div id='Term_Kernel'/>
 - Kernel: The kernel is a computer program at the core of a computer that communicates between programs and things like your mouse and keyboard and tells everything what to do.
 For more info see this wikipedia article https://en.wikipedia.org/wiki/Kernel_%28operating_system%29
-
+<br>
 <div id='Term_DE'/>
 - DE: DE is short for Desktop Environment. A Desktop Environment is a bundle of programs that allow you to interact with your computer. Think of your task bar and start menu. That's all part of the DE. In the case of this guide we'll be using one called Plasma by KDE. gnome is also a different DE.
 For more info see this wikipedia article https://en.wikipedia.org/wiki/Desktop_environment
@@ -80,6 +81,7 @@ For more info see this wikipedia article https://en.wikipedia.org/wiki/Bootloade
 <div id='Term_Linux'/>
 - Linux: Linux refers to the Linux kernel itself, Though people often associate it with the full operating system.
 For more context (and an inside joke with the linux community) see this copypasta https://stallman-copypasta.github.io/
+</details>
 
 <div id='step1'/>
 
@@ -88,9 +90,10 @@ For more context (and an inside joke with the linux community) see this copypast
 ### For putting Linux on the USB we have a few options. Doing any one of which will remove everything on your USB drive so make sure you have everything backed up.
 
 <div id='o1balena'/>
+<details open>
 
-## Option 1. Balena Etcher (We'll be using this option for the rest of the guide.)
-
+<summary> Option 1. Balena Etcher (We'll be using this option for the rest of the guide.) </summary> 
+<br>
 Balena Etcher etches or burns the image on to that USB. Similar to burning a CD back in the day. This means that you will only be able to boot to that single ISO or image that's burned to that USB drive. Though much more limited this method is alot simpler and will serve it's purpose for this guide.
 
 #### NOTE: You can use your USB drive for other things after this. You'll just have to format your drive.
@@ -128,11 +131,11 @@ Make sure everything is correct and if it is, click the big flash button and let
 ![Balena Etcher Flash Button](Images/balena_flash_button.png)
 
 Let it finish and when it does, you're ready to use your USB. No need to un-plug it as we'll be using it in [Step 2.](#step2)
-
+</details>
 
 <div id='o2rufus'/>
-
-## Option 2. Rufus
+<details>
+<summary> Option 2. Rufus </summary>
 
 Rufus creates a bootable install of linux (or whatever os you chose). However, you will only be able to boot to that single ISO or image that's burned to that USB drive.
 
@@ -171,10 +174,11 @@ Once your ISO has been selected you can click the "START" button at the bottom f
 ![Rufus Start Button](Images/rufus_start_button.png)
 
 Let it finish doing it's thing and when it's done you can close Rufus. No need to un-plug your USB drive as we'll be using it in [Step 2.](#step2)
+</details>
 
 <div id='o3ventoy'/>
-
-## Option 3. Ventoy
+<details>
+<summary> Option 3. Ventoy </summary>
 
 #### NOTE: Ventoy creates a [bootloader](#Term_Bootloader) on your USB drive that will allow you to select whatever ISO you want (as long as it's on the USB drive). It also allows you to quickly chose between whatever distro's ISO you have on your ventoy
 
@@ -236,6 +240,7 @@ Putting your ISO on your USB is quite simple. Open file explorer and go to where
 Now that you've located your USB drive, simply drag and drop the ISO from your downloads to your USB. {idk if it asks to move or copy but here's this in case. "if it asks you to move or copy, selecting copy will leave a copy behind in case you want it for later."}
 
 You now have your ISO on your USB and you're ready for [Step 2.](#step2) No need to un-plug as we'll be using it shortly.
+</details>
 
 <div id='step2'/>
 
@@ -270,25 +275,29 @@ Some computers will tell you what key leads to the bios when they boot. Most com
 Navigation or more simply moving around in your BIOS is done mostly through arrow keys and the enter key, though some allow you to use your mouse.
 
 <div id='navventoy'/>
-
-## Navigating Ventoy
+<details>
+<summary> Optional step: Navigating Ventoy</summary>
 
 #### NOTE: If you used [Rufus](#o2rufus) or [Balena Etcher](#o1etcher) you can skip to [The Live Environment](#liveenv)
 
 Navigating Ventoy is pretty simple and not too different from how most Linux distros boot when installed.
+</details>
 
-<div id='liveenv'/>
+<div id='bootorder'/>
 
-## The Live Environment
-
-The live environment is where you can use fully featured linux without having to install. As mentioned before nothing you do here will get saved, you'll have to install for that. However, for the purposes of trying out linux and getting farmiliar with it, the live environment is a safe way to do so without making any commitments.
-
-*Most* linux installers boot into a live environment by default, simply close out of the installer or click the "Try Nix" button.
+### Changing the boot order
 
 <div id='step3'/>
 
 # Step 3. Learning Linux
 
+<div id='liveenv'/>
+
+## The Live Environment
+
+The live environment is where you can use fully featured linux without having to install. As mentioned before nothing you do here will get saved, you'll have to actually install linux for that. However, for the purposes of trying out linux and getting farmiliar with it, the live environment is a safe way to do so without making any commitments.
+
+*Most* linux installers boot into a live environment by default, simply close out of the installer or click the "Try Nix" button.
 
 <div id='step4'/>
 
