@@ -66,22 +66,23 @@ For more info see this wikipedia article https://en.wikipedia.org/wiki/Kernel_%2
 <div id='Term_DE'/>
 - DE: DE is short for Desktop Environment. A Desktop Environment is a bundle of programs that allow you to interact with your computer. Think of your task bar and start menu. That's all part of the DE. In the case of this guide we'll be using one called Plasma by KDE. gnome is also a different DE.
 For more info see this wikipedia article https://en.wikipedia.org/wiki/Desktop_environment
-
+<br>
 <div id='Term_WM'/>
 - WM: WM is short for Window Manager. A Window Manager is software that, as the name implies, manages your windows (the little boxes of programs that show up on your screen like google). The window manager mainly handles their position and how they move around, though that's a gross oversimplification.
 For more info see this wikipedia article https://en.wikipedia.org/wiki/Window_manager
-
+<br>
 <div id='Term_Package_Manager'/>
 - Package manager: A package manager is as the name implies what manages all the packages on your system. The packages on your system is what makes up the software you have installed.
-
+<br>
 <div id='Term_Bootloader'/>
 - BootLoader: A BootLoader is a program that boots up your Operating System. Which in our case is Linux.
 For more info see this wikipedia article https://en.wikipedia.org/wiki/Bootloader
-
+<br>
 <div id='Term_Linux'/>
 - Linux: Linux refers to the Linux kernel itself, Though people often associate it with the full operating system.
 For more context (and an inside joke with the linux community) see this copypasta https://stallman-copypasta.github.io/
 </details>
+<br>
 
 <div id='step1'/>
 
@@ -136,8 +137,8 @@ Let it finish and when it does, you're ready to use your USB. No need to un-plug
 <div id='o2rufus'/>
 <details>
 <summary> Option 2. Rufus </summary>
-
-Rufus creates a bootable install of linux (or whatever os you chose). However, you will only be able to boot to that single ISO or image that's burned to that USB drive.
+<br>
+Rufus creates a bootable install of linux (or whatever OS you chose). However, you will only be able to boot to that single ISO or image that's burned to that USB drive.
 
 <div id='dlrufus'/>
 
@@ -179,7 +180,7 @@ Let it finish doing it's thing and when it's done you can close Rufus. No need t
 <div id='o3ventoy'/>
 <details>
 <summary> Option 3. Ventoy </summary>
-
+<br>
 #### NOTE: Ventoy creates a [bootloader](#Term_Bootloader) on your USB drive that will allow you to select whatever ISO you want (as long as it's on the USB drive). It also allows you to quickly chose between whatever distro's ISO you have on your ventoy
 
 <div id='dlventoy'/>
@@ -248,7 +249,7 @@ You now have your ISO on your USB and you're ready for [Step 2.](#step2) No need
 
 Booting into Linux is the final hurdle before you can start learning about it, and using it.
 
-#### NOTE: Nothing you do will get saved in the live environment. (This will be explained later in [The Live Environment](#liveenv))
+#### NOTE: Not every bios is the same, so while this section provides guidence, it may not be exactly the same as your system.
 
 <div id='bios'/>
 
@@ -295,9 +296,11 @@ Navigating Ventoy is pretty simple and not too different from how most Linux dis
 
 ## The Live Environment
 
+#### NOTE: Nothing you do in the Live Environment will get saved.
+
 The live environment is where you can use fully featured linux without having to install. As mentioned before nothing you do here will get saved, you'll have to actually install linux for that. However, for the purposes of trying out linux and getting farmiliar with it, the live environment is a safe way to do so without making any commitments.
 
-*Most* linux installers boot into a live environment by default, simply close out of the installer or click the "Try Nix" button.
+*Most* linux installers boot into a live environment by default, simply close out of the installer or click "Maybe later" or the X in the top right corner.
 
 <div id='step4'/>
 
