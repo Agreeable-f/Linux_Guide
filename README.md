@@ -300,7 +300,7 @@ Navigating Ventoy is pretty simple and not too different from how most Linux dis
 
 The live environment is where you can use fully featured linux without having to install. As mentioned before nothing you do here will get saved, you'll have to actually install linux for that. However, for the purposes of trying out linux and getting farmiliar with it, the live environment is a safe way to do so without making any commitments.
 
-*Most* linux installers boot into a live environment by default, simply close out of the installer or click "Maybe later" or the X in the top right corner.
+*Some* linux installers boot into a live environment by default, simply close out of the installer or click "Maybe later" or the X in the top right corner.
 
 <div id='step4'/>
 
